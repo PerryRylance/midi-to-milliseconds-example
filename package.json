@@ -1,0 +1,23 @@
+{
+	"dependencies": {
+		"@perry-rylance/midi": "^1.0.6",
+		"@perry-rylance/midi-to-milliseconds": "^1.0.4",
+		"@perry-rylance/node-canvas-video-recorder": "^1.0.1",
+		"color-convert": "^2.0.1",
+		"three": "^0.161.0"
+	},
+	"devDependencies": {
+		"@types/three": "^0.161.2"
+	},
+	"scripts": {
+		"capture": "npx ts-node-esm ./node_modules/@perry-rylance/node-canvas-video-recorder/src/server.ts"
+	},
+	"capture": {
+		"width": 1280,
+		"height": 720,
+		"url": "http://localhost:5173",
+		"output": "captured.mp4",
+		"duration": 293.714,
+		"fps": 30
+	}
+}
