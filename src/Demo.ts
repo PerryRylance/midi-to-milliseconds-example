@@ -115,10 +115,10 @@ export default class Demo
 		const { fps } = capture;
 		const seconds = playhead * capture.duration;
 
-		const start = seconds * 1000;
-		const end = (seconds + 1 / fps) * 1000;
-		const piano = this.resolver.tracks[0];
-		const events = piano.getEventsBetweenMilliseconds(start, end);
+		const start		= seconds * 1000;
+		const end		= (seconds + 1 / fps) * 1000;
+		const piano		= this.resolver.tracks[0];
+		const events	= piano.getEventsBetweenMilliseconds(start, end);
 
 		for(let i = 0; i < this.cubes.length; i++)
 		{

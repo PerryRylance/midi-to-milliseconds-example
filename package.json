@@ -1,7 +1,7 @@
 {
 	"dependencies": {
 		"@perry-rylance/midi": "^1.0.6",
-		"@perry-rylance/midi-to-milliseconds": "^1.0.4",
+		"@perry-rylance/midi-to-milliseconds": "^1.0.5",
 		"@perry-rylance/node-canvas-video-recorder": "^1.0.1",
 		"color-convert": "^2.0.1",
 		"three": "^0.161.0"
